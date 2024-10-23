@@ -1,21 +1,29 @@
 
 import './App.css'
-import Clients from './components/Clients'
-import Footer from './components/Footer'
+import Home from './pages/Home'
 import Header from './components/Header'
-import HomeLayout from './components/HomeLayout'
+import Footer from './components/Footer'
+import Clients from './components/Clients'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import About from './pages/About'
 
 function App() {
   
 
   return (
-    <>
+    <div className=''>
       <Header/>
-      <h1>Faiza Einab</h1>
-      <HomeLayout/>
+
+      <Router>
+        <Routes>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+        </Routes>
+      </Router>
+
       <Clients/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
