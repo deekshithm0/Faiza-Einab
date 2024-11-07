@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react"
+import Grapes from "../assets/elements/grapes.png"
 
 const Hero = () => {
   return (
-    <div>
+    <div
+      className="h-screen z-10 bg-cover bg-center"
+      // style={{ backgroundImage: `url(${Grapes})` }}
+    >
       <h1>This is hero section</h1>
     </div>
   )
