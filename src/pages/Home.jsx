@@ -4,11 +4,7 @@ import Clients from "../components/Clients"
 import Grapes from "../assets/elements/grapes.png"
 
 const Home = () => {
-  return (
-    <div className="h-[1550px] bg-blue-100">
-      <Hero />
-    </div>
-  )
+  return <Hero />
 }
 
 export default Home
