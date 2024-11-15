@@ -15,6 +15,9 @@ export default {
         lg: "1024px",
         xl: "1440px",
       },
+      fontFamily: {
+        italiana: ['Italiana', 'serif']
+      }
     },
   },
   plugins: [],

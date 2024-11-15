@@ -1,8 +1,15 @@
 import React from 'react'
+import BottleImg from '../assets/elements/bottle.png'
 
 const Bottle = () => {
   return (
-    <div>Bottle</div>
+    <div>
+      <img 
+        src={BottleImg}
+        alt='BottleImage'
+        className='w-[19rem]'
+      />
+    </div>
   )
 }
 
