@@ -1,15 +1,18 @@
 import React from "react"
 import Grapes from "../assets/elements/grapes.png"
 import Bottle from "./Bottle"
+import productimgs from "../assets/elements/bottle.png"
 import ProductImg1 from "../assets/elements/ProductImg1.png"
 import ProductImg2 from "../assets/elements/ProductImg2.png"
+import ProductCard from "./ProductCard"
+
 
 
 
 const Hero = () => {
   return (
 
-    <div class="h-screen bg-red-500 pt-10 flex flex-col overflow-y-scroll max-w-[2000px]">
+    <div class="min-h-screen bg-red-500 pt-10 flex flex-col overflow-y-scroll max-w-[2000px]">
 
       <div class="h-3/4 flex items-center justify-center bg-yellow-500">
         <div className="h-screen z-10 bg-cover bg-center flex flex-row items-center justify-center gap-80 " >
@@ -48,8 +51,15 @@ const Hero = () => {
 
       </div>
 
-      <div className="h-2/4 bg-violet-700 ">
-
+      <div className="min-h-[25rem] w-full flex flex-col gap-5 justify-center items-center bg-violet-700 ">
+        <div className="h-1/4 w-full bg-yellow-200">
+          <h2>AVAILABLE IN </h2>
+        </div>
+        <div className="h-3/4 w-full flex flex-row gap-4 bg-gray-400">
+          <ProductCard productImg={productimgs}/>
+          <ProductCard productImg={productimgs}/>
+          <ProductCard productImg={productimgs}/>
+        </div>
       </div>
 
     </div>
