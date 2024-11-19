@@ -54,7 +54,7 @@ const SpringImg = (props) => {
 const AppLayout = () => {
   return (
     <>
-      <div className="bg-bacground h-screen relative">
+      <div className="bg-bacground h-screen relative ">
         {/* <GrapeImage /> */}
         <NavBar />
         <div className="h-screen bg-blu-100 overflow-hidden relativ">
