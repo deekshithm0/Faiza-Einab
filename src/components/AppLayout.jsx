@@ -54,11 +54,11 @@ const SpringImg = (props) => {
 const AppLayout = () => {
   return (
     <>
-      <div className="bg-bacground min-h-screen relative flex flex-col ">
+      <div className="bg-bacground h-screen relative flex flex-col ">
         <NavBar />
-        <div className="flex-grow bg-blu-100 overflow-hidden relativ">
+        <div className=" bg-blu-100 overflow-hidden relativ">
           <Outlet />
-          <div className="absolute flex justify-center items-center">full</div>
+          <div className="absolute flex justify-center items-center"></div>
         </div>
         <Footer />
       </div>
