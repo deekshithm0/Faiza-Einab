@@ -5,6 +5,10 @@ import productimgs from "../assets/elements/bottle.png"
 import ProductImg1 from "../assets/elements/ProductImg1.png"
 import ProductImg2 from "../assets/elements/ProductImg2.png"
 import ProductCard from "./ProductCard"
+import BabyHyper from "../assets/elements/BabyHyper.png"
+import MetroHyper from "../assets/elements/MetroHyper.png"
+// import BabyHyper from "../assets/elements/BabyHyper.png"
+
 
 
 
@@ -17,7 +21,7 @@ const Hero = () => {
       <div class=" h-[50rem] flex items-center justify-center ">
         <div className="h-screen z-10 bg-cover bg-center flex flex-row items-center justify-center gap-80 " >
           <div className="flex flex-col pb-[170px] gap-4">
-            <h1 className="font-italiana text-[6rem] leading-tight text-[#582E7D]">Simply <br /> Pure Simply <br /> Delecious</h1>
+            <h1 className="font-italiana text-[6rem] leading-tight text-[#582E7D]">Simply <br /> Pure, Simply <br /> Delecious!</h1>
             <button className="w-40 h-12 ml-7 rounded-3xl bg-[#582E7D] text-white text-center">View Products</button>
           </div>
           <Bottle />
@@ -55,11 +59,20 @@ const Hero = () => {
 
           </div>
           <div className="h-3/4 w-full flex flex-row items-center justify-center gap-36 ">
-            <ProductCard productImg={productimgs} ml="250ml"/>
-            <ProductCard productImg={productimgs} ml="500ml"/>
-            <ProductCard productImg={productimgs} ml="750ml"/>
+            <ProductCard productImg={productimgs} ml="250ml" />
+            <ProductCard productImg={productimgs} ml="500ml" />
+            <ProductCard productImg={productimgs} ml="750ml" />
           </div>
-          <div className="h-72 pb-10 w-full bg-gradient-to-r from-transparent via-gray-600 to-transparent">
+          <div className="h-40 w-52 font-semibold font-italiana text-[#582E7D] text-[30px] flex justify-center items-center">
+            <h4>Our Clients</h4>
+          </div>
+          <div className="h-72 pb-24 gap-7 flex flex-row justify-center w-full bg-gradient-to-r from-transparent via-gray-600 to-transparent">
+            <img
+              src={BabyHyper} alt="client1" className="w-28 h-28" />
+            <img
+              src={MetroHyper} alt="client2" className="w-28 h-28"/>
+            {/* <img
+              src="" alt="client3" /> */}
 
           </div>
         </div>
