@@ -12,9 +12,9 @@ import ProductCard from "./ProductCard"
 const Hero = () => {
   return (
 
-    <div class="min-h-screen bg-red-500 pt-10 flex flex-col overflow-y-scroll max-w-[2000px]">
+    <div class="h-[100vh]  flex flex-col overflow-y-scroll hideScrollBar max-w-[2000px]">
 
-      <div class="h-3/4 flex items-center justify-center bg-yellow-500">
+      <div class=" h-[50rem] flex items-center justify-center ">
         <div className="h-screen z-10 bg-cover bg-center flex flex-row items-center justify-center gap-80 " >
           <div className="flex flex-col pb-[170px] gap-4">
             <h1 className="font-italiana text-[6rem] leading-tight text-[#582E7D]">Simply <br /> Pure Simply <br /> Delecious</h1>
@@ -24,23 +24,23 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="h-[50rem] flex flex-col gap-4 items-center bg-green-500 ">
+      <div className="h-[100rem] flex flex-col items-center pt-10">
 
-        <div className="h-1/2 w-full flex felx-row item-center justify-center gap-4 pt-10 w-fit bg-violet-500">
+        <div className="h-1/3 w-full flex felx-row item-center justify-center gap-4 pr-40">
           <div><img
             src={ProductImg2}
             alt="productImg2"
             className="h-[20rem] w-[35rem]"
           /></div>
-          <div className="flex flex-col text-end gap-4 pr-16 pt-16">
-            <h2>ProductName 2</h2>
+          <div className="flex flex-col text-end gap-4 pr-16  bg-[#582E7D] h-[18rem] w-[55rem] rounded-2xl bg-opacity-20">
+            <h2 className="font-shadowsIntoLight font-bold text-[50px] pt-3 pb-5 text-[#582E7D]">ProductName 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br />quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </div>
-        <div className="h-1/2 w-full flex felx-row justify-center items-center gap-4 bg-rose-400 ">
-          <div className="flex flex-col text-start gap-4 pl-10">
-            <h2>ProductName 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse <br />cillum dolore eu fugiat nulla pariatur.</p>
+        <div className="h-1/3 w-full flex felx-row justify-center items-center gap-4  ">
+          <div className="flex flex-col text-start gap-4 pl-16 bg-gold h-[18rem] w-[55rem] rounded-2xl bg-opacity-20">
+            <h2 className="font-shadowsIntoLight font-bold text-[50px] pt-3 pb-5 text-[#582E7D]">ProductName 1</h2>
+            <p className="text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse <br />cillum dolore eu fugiat nulla pariatur.</p>
           </div>
           <img
             src={ProductImg1}
@@ -49,18 +49,23 @@ const Hero = () => {
           />
         </div>
 
+        <div className="h-[50rem] w-full flex flex-col gap-5 justify-center items-center">
+          <div className="h-1/6 w-full flex items-cneter justify-center ">
+            <h2 className="font-semibold text-[30px] text-[#582E7D] font-italiana">AVAILABLE IN </h2>
+
+          </div>
+          <div className="h-3/4 w-full flex flex-row items-center justify-center gap-36 ">
+            <ProductCard productImg={productimgs} ml="250ml"/>
+            <ProductCard productImg={productimgs} ml="500ml"/>
+            <ProductCard productImg={productimgs} ml="750ml"/>
+          </div>
+          <div className="h-72 pb-10 w-full bg-gradient-to-r from-transparent via-gray-600 to-transparent">
+
+          </div>
+        </div>
       </div>
 
-      <div className="min-h-[25rem] w-full flex flex-col gap-5 justify-center items-center bg-violet-700 ">
-        <div className="h-1/4 w-full bg-yellow-200">
-          <h2>AVAILABLE IN </h2>
-        </div>
-        <div className="h-3/4 w-full flex flex-row gap-4 bg-gray-400">
-          <ProductCard productImg={productimgs}/>
-          <ProductCard productImg={productimgs}/>
-          <ProductCard productImg={productimgs}/>
-        </div>
-      </div>
+
 
     </div>
 

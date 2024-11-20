@@ -16,7 +16,8 @@ export default {
         xl: "1440px",
       },
       fontFamily: {
-        italiana: ['Italiana', 'serif']
+        italiana: ['Italiana', 'serif'],
+        shadowsIntoLight: ['Shadows Into Light', 'serif']
       }
     },
   },
