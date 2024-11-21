@@ -1,29 +1,25 @@
 import React from "react"
-import Grapes from "../assets/elements/grapes.png"
+import { motion } from "framer-motion"
+
 import Bottle from "./Bottle"
+import ProductCard from "./ProductCard"
+
 import productimgs from "../assets/elements/bottle.png"
 import ProductImg1 from "../assets/elements/ProductImg1.png"
 import ProductImg2 from "../assets/elements/ProductImg2.png"
-import ProductCard from "./ProductCard"
 import BabyHyper from "../assets/elements/BabyHyper.png"
 import MetroHyper from "../assets/elements/MetroHyper.png"
 import RealHyperMarket from "../assets/elements/RealHyperMarket.png"
 import NestoLogo from "../assets/elements/NESTOLOGO.png"
 import GreenHyperMarket from "../assets/elements/GreensHyperMarket.png"
 
-import { motion } from "framer-motion"
-
-
-
 
 const Hero = () => {
 
-  const imageSpacing = 1000
-
   const imageVariants = {
-    hidden: { x: "100%" },
+    hidden: { x: "10%" },
     visible: {
-      x: ["150%", `calc(100% - ${imageSpacing}px )`],
+      x: ["1500%", "-1000%"],
       transition: {
         duration: 5,
         ease: "linear",
@@ -46,17 +42,7 @@ const Hero = () => {
   return (
 
     <motion.div
-      variants={containerVariants
-        // {
-        //   hidden: { opacity: 0 },
-        //   show: {
-        //     opacity: 1,
-        //     transition: {
-        //       staggerChildren: 0.25,
-        //     },
-        //   },
-        // }
-      }
+      variants={containerVariants}
       initial="hidden"
       animate="visible"
       className="h-[100vh] flex flex-col overflow-y-scroll hideScrollBar max-w-[2000px]">
@@ -115,7 +101,10 @@ const Hero = () => {
           </div>
           <motion.div
             variants={containerVariants}
-            className="relative overflow-hidden h-72 pb-24 gap-52 flex flex-row justify-center w-full bg-gradient-to-r from-transparent via-gray-600 to-transparent">
+            initial="hidden"
+            animate="visible"
+            className="relative overflow-hidden h-72 pb-24  flex flex-row w-full bg-gradient-to-r from-transparent via-gold-600 to-transparent">
+            
             <motion.div variants={imageVariants} className="w-28 h-28 absolute">
               <img src={BabyHyper} alt="client1" className="w-full h-full" />
             </motion.div>
@@ -131,11 +120,10 @@ const Hero = () => {
             <motion.div variants={imageVariants} className="w-28 h-24 absolute">
               <img src={GreenHyperMarket} alt="client5" className="w-full h-full" />
             </motion.div>
+
           </motion.div>
         </div>
       </motion.div>
-
-
 
     </motion.div>
 
