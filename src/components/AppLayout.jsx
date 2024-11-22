@@ -56,7 +56,7 @@ const AppLayout = () => {
     <>
       <div className="bg-bacground h-screen relative flex flex-col ">
         <NavBar />
-        <div className=" bg-blu-100 overflow-hidden relativ">
+        <div className="h-screen bg-blu-100 overflow-hidden relativ">
           <Outlet />
           <div className="absolute flex justify-center items-center"></div>
         </div>
