@@ -96,53 +96,47 @@ const Hero = () => {
             <ProductCard productImg={productimgs} ml="500ml" />
             <ProductCard productImg={productimgs} ml="750ml" />
           </div>
+          <div className="h-1 w-10/12 mt-3 bg-gradient-to-r from-transparent via-yellow-500 to-transparent"></div>
           <div className="h-40 w-52 font-semibold font-italiana text-[#582E7D] text-[30px] flex justify-center items-center">
             <h4>Our Clients</h4>
           </div>
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            className="h-[50rem] pb-24 flex flex-row w-full items-center bg-black bg-opacity-5">
-            
-            {/* <motion.div variants={imageVariants} className="w-28 h-28 absolute">
-              <img src={BabyHyper} alt="client1" className="w-full h-full" />
-            </motion.div>
-            <motion.div variants={imageVariants} className="w-28 h-28 absolute">
-              <img src={MetroHyper} alt="client2" className="w-full h-full" />
-            </motion.div>
-            <motion.div variants={imageVariants} className="w-28 h-28 absolute">
-              <img src={RealHyperMarket} alt="client3" className="w-full h-full" />
-            </motion.div>
-            <motion.div variants={imageVariants} className="w-24 h-20 absolute">
-              <img src={NestoLogo} alt="client4" className="w-full h-full" />
-            </motion.div>
-            <motion.div variants={imageVariants} className="w-28 h-24 absolute">
-              <img src={GreenHyperMarket} alt="client5" className="w-full h-full" />
-            </motion.div> */}
+          <div
+            className="h-[50rem] pb-24 flex flex-row w-full items-center ">
 
-              <div className=" h-full w-full grid grid-cols-4 gap-4 items-center justify-items-center mx-auto">
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={BabyHyper} alt="Client1" className="h-24 w-24 object-contain" />
+              <div className=" h-full w-2/3 grid grid-cols-5   items-center justify-items-center mx-auto">
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={MetroHyper} alt="Client1" className="h-24 w-24 object-contain" />
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={MetroHyper} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={RealHyperMarket} alt="Client1" className="h-24 w-24 object-contain" />
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={RealHyperMarket} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={NestoLogo} alt="Client1" className="h-24 w-24 object-contain" />
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={NestoLogo} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={GreenHyperMarket} alt="Client1" className="h-24 w-24 object-contain" />
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={GreenHyperMarket} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
-                <div className="h-24 w-48 bg-yellow-300 flex justify-center">
-                    <img src={BabyHyper} alt="Client1" className="h-24 w-24 object-contain" />
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
+                </div>
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
+                </div>
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex itmes-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
+                </div>
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex itmes-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
+                </div>
+                <div className="h-24 w-40 bg-gray-400 bg-opacity-15 rounded-xl flex itmes-center justify-center">
+                    <img src={BabyHyper} alt="Client1" className="h-20 w-20 object-contain" />
                 </div>
               </div>
 
-          </motion.div>
+          </div>
         </div>
       </motion.div>
 
