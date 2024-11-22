@@ -23,7 +23,7 @@ const AppLayout = () => {
         <NavBar />
         <div className="h-screen bg-blu-100 overflow-hidden relativ">
           <Outlet />
-          <div className="absolute flex justify-center items-center">full</div>
+          {/* <div className="absolute flex justify-center items-center">About</div> */}
         </div>
         <Footer />
       </div>

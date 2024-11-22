@@ -7,7 +7,7 @@ const Hero = () => {
       className="h-screen z-10 bg-cover bg-center"
       // style={{ backgroundImage: `url(${Grapes})` }}
     >
-      <h1>This is hero section</h1>
+      <h1>This is hero section. Can I give </h1>
     </div>
   )
 }
