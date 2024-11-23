@@ -58,11 +58,7 @@ const AppLayout = () => {
         <NavBar />
         <div className="h-screen bg-blu-100 overflow-hidden relativ">
           <Outlet />
-<<<<<<< HEAD
-          {/* <div className="absolute flex justify-center items-center">About</div> */}
-=======
           <div className="absolute flex justify-center items-center"></div>
->>>>>>> d4819970c389ff1afbf7376529c1c0f0bb6ae9a2
         </div>
         <Footer />
       </div>

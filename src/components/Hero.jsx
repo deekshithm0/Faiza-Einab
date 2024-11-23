@@ -40,14 +40,6 @@ const Hero = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <div
-      className="h-screen z-10 bg-cover bg-center"
-      // style={{ backgroundImage: `url(${Grapes})` }}
-    >
-      <h1>This is hero section. Can I give </h1>
-    </div>
-=======
 
     <motion.div
       variants={containerVariants}
@@ -150,7 +142,6 @@ const Hero = () => {
 
     </motion.div>
 
->>>>>>> d4819970c389ff1afbf7376529c1c0f0bb6ae9a2
   )
 }
 
