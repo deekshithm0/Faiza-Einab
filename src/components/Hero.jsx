@@ -14,7 +14,7 @@ import NestoLogo from "../assets/elements/NESTOLOGO.png"
 import GreenHyperMarket from "../assets/elements/GreensHyperMarket.png"
 
 
-const Hero = () => {
+const  Hero = () => {
 
   const imageVariants = {
     hidden: { x: "10%" },

@@ -1,7 +1,6 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
-import NavBar from "./NavBar"
-import Footer from "./Footer"
+// import NavBar from "./NavBar"
 import Grape from "../assets/elements/grapes.png"
 import LeafeOutline from "../assets/elements/leaf outline.png"
 import LeafFill from "../assets/elements/leaf fill.png"
@@ -55,12 +54,11 @@ const AppLayout = () => {
   return (
     <>
       <div className="bg-bacground h-screen relative flex flex-col ">
-        <NavBar />
+        {/* <NavBar /> */}
         <div className="h-screen bg-blu-100 overflow-hidden relativ">
           <Outlet />
           <div className="absolute flex justify-center items-center"></div>
         </div>
-        <Footer />
       </div>
       <div className="fixed inset-0 bg-background z-[-1] h-screen w-screen overflow-hidden">
 

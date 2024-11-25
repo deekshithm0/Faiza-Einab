@@ -17,7 +17,12 @@ export default {
       },
       fontFamily: {
         italiana: ['Italiana', 'serif'],
-        shadowsIntoLight: ['Shadows Into Light', 'serif']
+        shadowsIntoLight: ['Shadows Into Light', 'serif'],
+        lato: ['Lato', 'sans-serif'],
+      },
+      colors: {
+        customPurple: '#23041E',
+         // Add your color with a meaningful name
       }
     },
   },
