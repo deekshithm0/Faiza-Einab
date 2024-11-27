@@ -1,10 +1,12 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
-// import NavBar from "./NavBar"
+import NavBar from "./NavBar"
 import Grape from "../assets/elements/grapes.png"
 import LeafeOutline from "../assets/elements/leaf outline.png"
 import LeafFill from "../assets/elements/leaf fill.png"
 import Spring from "../assets/elements/spring.png"
+import Footer from "./Footer"
+import "../App.css"
 
 const GrapeImage = () => {
   return (
@@ -53,11 +55,13 @@ const SpringImg = (props) => {
 const AppLayout = () => {
   return (
     <>
-      <div className="bg-bacground h-screen relative flex flex-col ">
-        {/* <NavBar /> */}
+      <div className="bg-bacground h-screen w-screen relative flex flex-col hideScrollBar ">
+        <NavBar />
         <div className="h-screen bg-blu-100 overflow-hidden relativ">
           <Outlet />
-          <div className="absolute flex justify-center items-center"></div>
+          <div className="w-full absolute flex justify-center items-center">
+            <Footer />
+          </div>
         </div>
       </div>
       <div className="fixed inset-0 bg-background z-[-1] h-screen w-screen overflow-hidden">
@@ -83,20 +87,20 @@ const AppLayout = () => {
           className="w-[4rem]"
           style={{ top: "90%", left: "40%", transform: "translate(10px, 20px) rotate(60deg)" }}
         />
-        
+
         <LeafFillImg
           className="w-[4rem]"
           style={{ top: "80%", left: "70%", transform: "translate(10px, 20px) rotate(-60deg)" }}
         />
 
-        <SpringImg 
+        <SpringImg
           className="w-[3rem]"
-          style={{top: "50%", left: "70%", transform: "translate(10px, 20px) rotate(20deg)"}}
+          style={{ top: "50%", left: "70%", transform: "translate(10px, 20px) rotate(20deg)" }}
         />
-       
-        <SpringImg 
+
+        <SpringImg
           className="w-[2rem]"
-          style={{top: "70%", left: "10%", transform: "translate(10px, 20px) rotate(20deg)"}}
+          style={{ top: "70%", left: "10%", transform: "translate(10px, 20px) rotate(20deg)" }}
         />
 
 

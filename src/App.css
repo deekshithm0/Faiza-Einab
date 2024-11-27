@@ -1,6 +1,12 @@
 .hideScrollBar{
     scrollbar-width: none;
+    -ms-overflow-style: none;
 }
+
+body, html {
+scrollbar-width: none; 
+}
+
 .italiana-regular {
     font-family: "Italiana", serif;
     font-weight: 400;

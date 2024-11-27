@@ -1,12 +1,10 @@
 import React from "react";
 import GrapeBottleImage from "../assets/elements/Grape_Image.jpg";
-import Footer from "../components/Footer";
-
 
 const About = () => {
     return (
-        <div className="space-y-2 max-w-[2000px]">
-            {/* <div className=" w-full  max-w-[1400px] flex flex-col space-y-10 ">
+        <div className="space-y-2 max-w-[2000px] h-screen flex items-center justify-center">
+            <div className=" w-full  max-w-[1400px] flex flex-col space-y-10 ">
                 <div className="  max-w-[124rem] flex flex-row">
                     <div className=" ml-44 leading-none ">
                         <div className="">
@@ -54,8 +52,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-            </div> */}
-            <Footer />
+            </div>
        
         </div>
     );
