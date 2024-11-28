@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="w-full flex  justify-center items-center bg-customPurple" >
             <div className="max-w-[1575px] flex flex-col items-center space-y-10">
-                <div className="flex justify-evenly mt-10  ">
+                <div className="w-full flex justify-evenly mt-10 ">
                     <div className="w-[450px] ">
                         <div className="space-y-3">
                             <h1 className="font-bold text-white ">About Us</h1>
@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="w-[450px] ">
-                        <div className="space-y-3">
+                        <div className="space-y-3 pl-14">
                             <h1 className="font-bold text-white">Quick Links</h1>
                             <ul className="space-y-2 text-gray-300">
                                 <li>
@@ -33,7 +33,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="w-[450px] ">
+                    <div className="w-[450p] ">
                         <div className="space-y-3">
                             <h1 className="font-bold text-white">Follow Us</h1>
                             <ul className="flex space-x-2  text-gray-300 ">
