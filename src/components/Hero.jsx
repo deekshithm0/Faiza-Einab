@@ -68,14 +68,15 @@ const Hero = () => {
             src={ProductImg2}
             alt="productImg2"
             className="h-[20rem] w-[35rem]"
-          /></div>
+          />
+          </div>
           <div className="flex flex-col text-end gap-4 pr-16  bg-[#582E7D] h-[18rem] w-[55rem] rounded-2xl bg-opacity-20">
             <h2 className="font-shadowsIntoLight font-bold text-[50px] pt-3 pb-5 text-[#582E7D]">ProductName 2</h2>
             <p className="font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br />quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </div>
         <div className="h-1/3 w-full flex felx-row justify-center items-center gap-4  ">
-          <div className="flex flex-col text-start gap-4 pl-16 bg-gold h-[18rem] w-[55rem] rounded-2xl bg-opacity-20">
+          <div className="flex flex-col text-start gap-4 pl-16 bg-[#582E7D] h-[18rem] w-[55rem] rounded-2xl bg-opacity-20">
             <h2 className="font-shadowsIntoLight font-bold text-[50px] pt-3 pb-5 text-[#582E7D]">ProductName 1</h2>
             <p className="font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br /> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse <br />cillum dolore eu fugiat nulla pariatur.</p>
           </div>
