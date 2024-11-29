@@ -12,7 +12,7 @@ const NavBar = () => {
           <NavLink to="/" >Product</NavLink>
         </div>
         <div className="border border-gold rounded-3xl px-3 py-1 z-10 text-white"> 
-          Contact us
+          <a href="#contact">Contact us</a>
         </div>
       </div>
       <div className="h-0.5 w-10/12 bg-gradient-to-r from-transparent via-yellow-500 to-transparent"></div>

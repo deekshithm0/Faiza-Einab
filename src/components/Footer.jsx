@@ -8,10 +8,17 @@ const Footer = () => {
                 <div className="w-full flex justify-evenly mt-10 ">
                     <div className="w-[450px] ">
                         <div className="space-y-3">
-                            <h1 className="font-bold text-white ">About Us</h1>
-                            <p className=" text-gray-300 font-lato">
-                                we are a team dedicated to provide best <br /> grape juice across in india{" "}
+                            <h1 id="contact" className="font-bold text-white ">Contact Us</h1>
+                            <p className="text-gray-300 font-lato">FAIZA EINAB DRINK <br />
+                                Kandathuvayal,
+                                Vellamunda post <br />
+                                Wayanad, Kerala,
+                                670731
                             </p>
+                            <p className=" text-gray-300 font-lato">
+                                Faiza5up@gmail.com
+                            </p>
+                            <p className="text-gray-300 font-lato">+91 9447 081 494</p>
                         </div>
                     </div>
                     <div className="w-[450px] ">
@@ -26,9 +33,6 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link to="/Product">Product</Link>
-                                </li>
-                                <li>
-                                    <Link to="/About">Contact</Link>
                                 </li>
                             </ul>
                         </div>
