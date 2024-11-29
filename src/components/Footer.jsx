@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="w-full flex justify-evenly mt-10 ">
                     <div className="w-[450px] ">
                         <div className="space-y-3">
-                            <h1 className="font-bold text-white ">Contact Us</h1>
+                            <h1 id="contact" className="font-bold text-white ">Contact Us</h1>
                             <p className=" text-gray-300 font-lato">
                                 FaizaEinab@gmail.com
                             </p>
