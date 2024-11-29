@@ -8,10 +8,12 @@ const Footer = () => {
                 <div className="w-full flex justify-evenly mt-10 ">
                     <div className="w-[450px] ">
                         <div className="space-y-3">
-                            <h1 className="font-bold text-white ">About Us</h1>
+                            <h1 className="font-bold text-white ">Contact Us</h1>
                             <p className=" text-gray-300 font-lato">
-                                we are a team dedicated to provide best <br /> grape juice across in india{" "}
+                                FaizaEinab@gmail.com
                             </p>
+                            <p className="text-gray-300 font-lato">+91 9876 543 210</p>
+                            <p className="text-gray-300 font-lato">Faiza-einab <br /> Nh-766 near Vythiri Town, <br /> Vythiri 673 576 India </p>
                         </div>
                     </div>
                     <div className="w-[450px] ">
@@ -26,9 +28,6 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link to="/Product">Product</Link>
-                                </li>
-                                <li>
-                                    <Link to="/About">Contact</Link>
                                 </li>
                             </ul>
                         </div>
