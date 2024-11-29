@@ -9,11 +9,16 @@ const Footer = () => {
                     <div className="w-[450px] ">
                         <div className="space-y-3">
                             <h1 id="contact" className="font-bold text-white ">Contact Us</h1>
-                            <p className=" text-gray-300 font-lato">
-                                FaizaEinab@gmail.com
+                            <p className="text-gray-300 font-lato">FAIZA EINAB DRINK <br />
+                                Kandathuvayal,
+                                Vellamunda post <br />
+                                Wayanad, Kerala,
+                                670731
                             </p>
-                            <p className="text-gray-300 font-lato">+91 9876 543 210</p>
-                            <p className="text-gray-300 font-lato">Faiza-einab <br /> Nh-766 near Vythiri Town, <br /> Vythiri 673 576 India </p>
+                            <p className=" text-gray-300 font-lato">
+                                Faiza5up@gmail.com
+                            </p>
+                            <p className="text-gray-300 font-lato">+91 9447 081 494</p>
                         </div>
                     </div>
                     <div className="w-[450px] ">
