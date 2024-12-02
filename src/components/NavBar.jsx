@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="w-96 flex items-center justify-center gap-16 font-shadowsIntoLight text-[#582E7D] font-bold tracking-widest">
           <NavLink to="/" >Home</NavLink>
           <NavLink to="/about" >About</NavLink>
-          <NavLink to="/" >Product</NavLink>
+          <NavLink to="/Products" >Product</NavLink>
         </div>
         <div className="border border-gold rounded-3xl px-3 py-1 z-10 text-white"> 
           <a href="#contact">Contact us</a>
