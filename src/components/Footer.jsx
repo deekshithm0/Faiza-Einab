@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="w-full flex  justify-center items-center bg-customPurple" >
+        <div className="w-full flex mt-auto justify-center items-center bg-customPurple" >
             <div className="max-w-[1575px] flex flex-col items-center space-y-10">
                 <div className="w-full flex justify-evenly mt-10 ">
                     <div className="w-[450px] ">
@@ -32,7 +32,7 @@ const Footer = () => {
                                     <Link to="/About">About</Link>
                                 </li>
                                 <li>
-                                    <Link to="/Product">Product</Link>
+                                    <Link to="/Products">Products</Link>
                                 </li>
                             </ul>
                         </div>
