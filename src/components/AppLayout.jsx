@@ -60,7 +60,7 @@ const AppLayout = () => {
         <div className=" bg-blu-100 overflowhidden relative">
           <Outlet />
           <div className="w-full absolute flex justify-center items-center">
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </div>
       </div>
