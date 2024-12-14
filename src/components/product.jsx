@@ -53,7 +53,7 @@ function Products() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center space-x-3 p-10 bg-green-500">
+    <div className="flex justify-center items-center space-x-3 p-10">
       {/* Left Button */}
       <button
         onClick={scrollLeft}
@@ -64,7 +64,7 @@ function Products() {
 
       <div
         ref={containerRef}
-        className="hide-scrollbar flex gap-16 w-[1280px] h-[550px] items-center bg-[#fcfbfc] overflow-x-auto snap-x snap-mandatory"
+        className="hide-scrollbar flex gap-16 w-[1280px] h-[550px] items-center  overflow-x-auto hideScrollBar snap-x snap-mandatory"
         style={{ scrollBehavior: "smooth", scrollbarGutter: "stable" }}
       >
         {juices.map((juice, index) => (
