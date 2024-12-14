@@ -59,7 +59,7 @@ function Products() {
         onClick={scrollLeft}
         className="p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
-        <img src="/public/icons8-left-48.png" alt="" />
+        <img src="/icons8-left-48.png" alt="" />
       </button>
 
       <div
