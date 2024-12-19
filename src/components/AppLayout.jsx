@@ -1,12 +1,12 @@
-import React from "react"
-import { Outlet } from "react-router-dom"
-import NavBar from "./NavBar"
-import Grape from "../assets/elements/grapes.png"
-import LeafeOutline from "../assets/elements/leaf outline.png"
-import LeafFill from "../assets/elements/leaf fill.png"
-import Spring from "../assets/elements/spring.png"
-import Footer from "./Footer"
-import "../App.css"
+import React from "react";
+import { Outlet } from "react-router-dom";
+import NavBar from "./NavBar";
+import Grape from "../assets/elements/grapes.png";
+import LeafeOutline from "../assets/elements/leaf outline.png";
+import LeafFill from "../assets/elements/leaf fill.png";
+import Spring from "../assets/elements/spring.png";
+import Footer from "./Footer";
+import "../App.css";
 
 const GrapeImage = () => {
   return (
@@ -16,8 +16,8 @@ const GrapeImage = () => {
       className="fixed blur w-[40rem]"
       style={{ transform: "translate(68rem, -22rem) rotate(-10deg)" }}
     />
-  )
-}
+  );
+};
 
 const LeafOutlineImg = (props) => {
   return (
@@ -27,8 +27,8 @@ const LeafOutlineImg = (props) => {
       className={`absolute blur-[2px] ${props.className}`}
       style={props.style}
     />
-  )
-}
+  );
+};
 
 const LeafFillImg = (props) => {
   return (
@@ -38,8 +38,8 @@ const LeafFillImg = (props) => {
       className={`absolute blur-[2px] ${props.className} `}
       style={props.style}
     />
-  )
-}
+  );
+};
 
 const SpringImg = (props) => {
   return (
@@ -49,22 +49,22 @@ const SpringImg = (props) => {
       className={`absolute blur-[2px] ${props.className} `}
       style={props.style}
     />
-  )
-}
+  );
+};
 
 const AppLayout = () => {
   return (
-    <>
-      <div className="bg-bacground h-screen w-screen relative flex flex-col hideScrollBar ">
+    <div className="  justify-center items-center">
+      <div className="relative max-w-[125rem] flex flex-col hideScrollBar ">
         <NavBar />
-        <div className=" bg-blu-100 overflowhidden relative">
+        <div className="  overflowhidden relative">
           <Outlet />
-          <div className="w-full absolute flex justify-center items-center">
+          <div className="w-full flex justify-center items-center">
             <Footer />
           </div>
         </div>
       </div>
-      <div className="fixed inset-0 bg-background z-[-1] h-screen w-screen overflow-hidden">
+      <div className="fixed inset-0 z-[-1] h-screen w-screen overflow-hidden">
         <LeafFillImg
           className="w-[4rem]"
           style={{
@@ -134,8 +134,8 @@ const AppLayout = () => {
           }}
         />
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default AppLayout
+export default AppLayout;

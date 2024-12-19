@@ -53,18 +53,19 @@ function Products() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center space-x-3 p-10">
-      {/* Left Button */}
+    <div className="flex flex-col lg:flex-row justify-center items-center space-y-5 lg:space-y-0 lg:space-x-3 p-5 bg-green-500">
+      {/* Left Button - Hide on Mobile */}
       <button
         onClick={scrollLeft}
-        className="p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
+        className="hidden lg:block p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
-        <img src="/icons8-left-48.png" alt="" />
+        <img src="/public/icons8-left-48.png" alt="Scroll Left" />
       </button>
 
+      {/* Scrolling Container */}
       <div
         ref={containerRef}
-        className="hide-scrollbar flex gap-16 w-[1280px] h-[550px] items-center  overflow-x-auto hideScrollBar snap-x snap-mandatory"
+        className="hide-scrollbar flex flex-col lg:flex-row gap-10 lg:gap-16 w-full lg:w-[1280px] h-auto lg:h-[550px] items-center bg-[#fcfbfc] overflow-x-auto lg:snap-x lg:snap-mandatory"
         style={{ scrollBehavior: "smooth", scrollbarGutter: "stable" }}
       >
         {juices.map((juice, index) => (
@@ -85,12 +86,12 @@ function Products() {
         ))}
       </div>
 
-      {/* Right Button */}
+      {/* Right Button - Hide on Mobile */}
       <button
         onClick={scrollRight}
-        className="p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
+        className="hidden lg:block p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
-        <img src="/icons8-right-48.png" alt="" />
+        <img src="/public/icons8-right-48.png" alt="Scroll Right" />
       </button>
     </div>
   );

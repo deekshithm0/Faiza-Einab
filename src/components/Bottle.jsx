@@ -7,7 +7,7 @@ const Bottle = () => {
       <img
         src={BottleImg}
         alt="BottleImage"
-        className="sm:w-10/12 object-contain w-full"
+        className="xs:w-10/12 xs:rotate-[28deg]  xs:-mt-[35rem]  xs:ml-[2rem] sm:rotate-0 sm:ml-0 sm:mt-0 lg:rotate-0 object-contain w-full"
       />
     </div>
   )
