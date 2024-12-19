@@ -81,7 +81,7 @@ const Hero = () => {
         <div className="w-fit ">
           <div className="h-1/3 w-full xs:p-2  overflow-hidden flex felx justify-center items-center sm:gap-4 xs:gap-0 md:gap-24 ">
             <div className="flex flex-col text-start xs:ml-5 xs:pl-2 xs:p-2 sm:gap-0 md:gap-4 md:pl-16 bg-[#6ef634] lg:h-[18rem] lg:w-[55rem] sm:h-[18rem] sm:w-[30rem] rounded-2xl bg-opacity-20">
-              <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] pt-3 pb-5 text-[#582E7D]">
+              <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] xs:pt-1 pb-5 text-[#582E7D]">
                 ProductName 1
               </h2>
               <p className="font-medium w-fit xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xs:leading-tight sm:leading-tight md:leading-none ">
@@ -108,7 +108,7 @@ const Hero = () => {
               className=" lg:h-[35rem] lg:w-[25rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[40rem] xs:h-1/2 xs:w-1/2 "
             />
             <div className="flex flex-col sm:gap-4 sm:pr-2 xs:p-2 md:pr-16 bg-violet-600 xs:pr-2 md:h-[18rem] md:w-[55rem] rounded-2xl bg-opacity-20 items-end">
-              <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] pt-3 pb-5 text-[#582E7D]">
+              <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] xs:pt-1 pt-3 pb-5 text-[#582E7D]">
                 ProductName 2
               </h2>
               <p className="font-medium w-fit xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xs:leading-tight sm:leading-tight md:leading-none text-end ">
@@ -142,7 +142,7 @@ const Hero = () => {
             <div className=" font-semibold font-italiana text-[#582E7D] text-[30px] ">
               <h4>Our Clients</h4>
             </div>
-            <div className=" flex flex-row w-full items-center  ">
+            <div className=" flex flex-row w-full pb-20 items-center  ">
               <div className="lg:grid lg:grid-cols-6 lg:gap-10 xs:grid xs:grid-cols-2 sm:grid sm:grid-cols-3 md:grid md:grid-cols-4 xs:p-2 xs:gap-4 lg:p-4 mx-auto">
                 <div className="sm:h-24 sm:w-40 xs:h-20 xs:w-36 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
                   <img
