@@ -11,8 +11,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className=" max-w-[125rem]">
-      {/* Desktop Navigation */}
+    <div className=" max-w-[125rem] flex flex-col items-center">
       <div className="h-20 flex justify-between px-32 max-md:px-10 max-sm:hidden items-center w-full">
         <div>Faiza einab</div>
         <div className="w-96 flex items-center justify-center gap-16 font-shadowsIntoLight text-[#582E7D] font-bold tracking-widest">
@@ -24,8 +23,6 @@ const NavBar = () => {
           <a href="#contact">Contact us</a>
         </div>
       </div>
-
-      {/* Mobile Menu Icon */}
       <div className="sm:hidden h-20 flex w-full justify-between px-10 items-center bg-backgound">
         <div>Faiza einab</div>
         <CiMenuFries
@@ -34,8 +31,6 @@ const NavBar = () => {
           className="cursor-pointer"
         />
       </div>
-
-      {/* Mobile Navigation Menu */}
       {menuOpen && (
         <div className="sm:hidden absolute top-20 w-auto right-0 bg-white p-5 shadow-lg z-50">
           <AiOutlineClose
@@ -59,8 +54,6 @@ const NavBar = () => {
           </div>
         </div>
       )}
-
-      {/* Decorative Line */}
       <div className="h-0.5 w-10/12 bg-gradient-to-r from-transparent via-yellow-500 to-transparent"></div>
     </div>
   )

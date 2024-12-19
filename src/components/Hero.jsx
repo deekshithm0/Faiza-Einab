@@ -51,9 +51,9 @@ const Hero = () => {
       {/* 0 */}
       <motion.div
         variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
-        className=" flex items-center  justify-center "
+        className=" flex items-center  justify-center"
       >
-        <div className="sm:h-auto overflow-hidden  z-10 bg-cover bg-center flex max-sm:flex-col items-center justify-evenly px-16">
+        <div className="sm:h-auto overflow-hidden xs:ml-0 xl:-ml-[30rem]    z-10 bg-cover bg-center flex max-sm:flex-col items-center justify-evenly px-16">
           <div className="flex flex-col gap-4 xs:space-y-72 sm:space-y-0 py-5">
             <h1 className="font-italiana w-full text-[3rem] xs:mr-24 sm:mr-0 max-sm:h-full xs:text-[2.3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] leading-tight text-[#582E7D]">
               Simply <br />
@@ -73,14 +73,14 @@ const Hero = () => {
         </div>
       </motion.div>
 
-      {/* 1 */}
+      {/* product 1 , 2 */}
       <motion.div
         variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         className="flex flex-col  items-center "
       >
         <div className="w-fit ">
           <div className="h-1/3 w-full xs:p-2  overflow-hidden flex felx justify-center items-center sm:gap-4 xs:gap-0 md:gap-24 ">
-            <div className="flex flex-col text-start xs:ml-5 xs:pl-2 sm:gap-0 md:gap-4 md:pl-16 bg-[#6ef634] lg:h-[18rem] lg:w-[55rem] sm:h-[18rem] sm:w-[30rem] rounded-2xl bg-opacity-20">
+            <div className="flex flex-col text-start xs:ml-5 xs:pl-2 xs:p-2 sm:gap-0 md:gap-4 md:pl-16 bg-[#6ef634] lg:h-[18rem] lg:w-[55rem] sm:h-[18rem] sm:w-[30rem] rounded-2xl bg-opacity-20">
               <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] pt-3 pb-5 text-[#582E7D]">
                 ProductName 1
               </h2>
@@ -101,13 +101,13 @@ const Hero = () => {
               className="lg:h-[35rem] lg:w-[25rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[18rem] xs:h-64 xs:w-64 "
             />
           </div>
-          <div className="h-1/3 w-full  flex items-center justify-around gap-4 xs:pr-4 sm:pr-20 md:pr-40">
-              <img
-                src={ProductImg2}
-                alt="productImg2"
-                className=" lg:h-[35rem] lg:w-[25rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[40rem] xs:h-1/2 xs:w-1/2 "
-              />
-            <div className="flex flex-col sm:gap-4 sm:pr-2 md:pr-8 bg-violet-600 xs:pr-2 md:h-[18rem] md:w-[55rem] rounded-2xl bg-opacity-20 items-end">
+          <div className="h-1/3 w-full  flex items-center justify-around gap-4 xs:pr-4 sm:pr-20 md:pr-20">
+            <img
+              src={ProductImg2}
+              alt="productImg2"
+              className=" lg:h-[35rem] lg:w-[25rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[40rem] xs:h-1/2 xs:w-1/2 "
+            />
+            <div className="flex flex-col sm:gap-4 sm:pr-2 xs:p-2 md:pr-16 bg-violet-600 xs:pr-2 md:h-[18rem] md:w-[55rem] rounded-2xl bg-opacity-20 items-end">
               <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] pt-3 pb-5 text-[#582E7D]">
                 ProductName 2
               </h2>
@@ -124,7 +124,7 @@ const Hero = () => {
         </div>
         {/* 2 */}
         <div className=" w-full flex flex-col space-y-16 gap-5 justify-center items-center">
-          <div className="xs:space-y-10 p-2 sm:space-y-16 flex flex-col items-center">
+          <div className="xs:space-y-10 p-2 mt-10 sm:space-y-16 flex flex-col items-center">
             <div className="h-1/6 w-full flex items-cneter justify-center ">
               <h2 className="font-semibold text-[30px] text-[#582E7D] font-italiana">
                 AVAILABLE IN
@@ -146,7 +146,7 @@ const Hero = () => {
               <div className="lg:grid lg:grid-cols-6 lg:gap-10 xs:grid xs:grid-cols-2 sm:grid sm:grid-cols-3 md:grid md:grid-cols-4 xs:p-2 xs:gap-4 lg:p-4 mx-auto">
                 <div className="sm:h-24 sm:w-40 xs:h-20 xs:w-36 bg-gray-400 bg-opacity-15 rounded-xl flex items-center justify-center">
                   <img
-                    src={BabyHyper} 
+                    src={BabyHyper}
                     alt="Client1"
                     className="h-20 w-20 object-contain"
                   />
