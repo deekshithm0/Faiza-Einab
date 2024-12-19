@@ -78,7 +78,7 @@ const Hero = () => {
         variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         className="flex flex-col  items-center "
       >
-        <div className="w-fit ">
+        <div className="w-fit xs:space-y-6 space-y-0 ">
           <div className="h-1/3 w-full xs:p-2  overflow-hidden flex felx justify-center items-center sm:gap-4 xs:gap-0 md:gap-24 ">
             <div className="flex flex-col text-start xs:ml-5 xs:pl-2 xs:p-2 sm:gap-0 md:gap-4 md:pl-16 bg-[#6ef634] lg:h-[18rem] lg:w-[55rem] sm:h-[18rem] sm:w-[30rem] rounded-2xl bg-opacity-20">
               <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] xs:pt-1 pb-5 text-[#582E7D]">
