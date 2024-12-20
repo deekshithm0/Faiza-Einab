@@ -56,7 +56,6 @@ function Products() {
     <div className="flex justify-center items-center space-x-3 p-10">
       {/* Left Button */}
       <button
-        onClick={scrollLeft}
         className="p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
         <img src="/icons8-left-48.png" alt="" />
