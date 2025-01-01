@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer/Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
