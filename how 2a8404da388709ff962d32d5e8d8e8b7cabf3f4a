@@ -1,0 +1,290 @@
+[33mcommit 9d38eefc9bf2b7b527aeb1da1bc7612555f58421[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mproduct[m[33m)[m
+Author: abhishek <abhislinux@gmail.com>
+Date:   Mon Dec 30 16:09:49 2024 +0530
+
+    inital commit11
+
+[33mcommit 56532632bafe7ea669397be2c5c18aa99aea5ea1[m[33m ([m[1;31morigin/product[m[33m)[m
+Author: abhishek <abhislinux@gmail.com>
+Date:   Fri Dec 20 11:39:20 2024 +0530
+
+    inital commit11
+
+[33mcommit 2a8404da388709ff962d32d5e8d8e8b7cabf3f4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 5beaf3a 0063d22
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Fri Dec 20 11:30:04 2024 +0530
+
+    Merge pull request #29 from deekshithm0/home
+    
+    web code
+
+[33mcommit 0063d22163445ef70343d4c60840d5c4586b1aaa[m[33m ([m[1;31morigin/home[m[33m)[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Dec 20 11:28:17 2024 +0530
+
+    web code
+
+[33mcommit 8cdcf84fad0b5b27281c6d201e9cc1ae387da3a1[m
+Merge: 4574772 202f88c
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Sat Dec 14 12:39:02 2024 +0530
+
+    Merge branch 'home' of https://github.com/deekshithm0/Faiza-Einab into home
+
+[33mcommit 4574772191ba0ae5b7f11b0b3260beb7bd4d24c9[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Sat Dec 14 12:36:47 2024 +0530
+
+    redirects added
+
+[33mcommit 202f88c0850e369e0ceba33522c65b147d7afda1[m
+Merge: c300242 346d9c0
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Sat Dec 14 12:31:46 2024 +0530
+
+    Merge pull request #26 from deekshithm0/main
+    
+    updation in home branch
+
+[33mcommit 346d9c0fcc51f155923c496109721c6bb6c75c6d[m
+Merge: a3eb43a c300242
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Sat Dec 14 12:23:49 2024 +0530
+
+    Merge pull request #25 from deekshithm0/home
+    
+    Merge pull request #24 from deekshithm0/main
+
+[33mcommit a3eb43aa846eb5453921ce00d4700c53d39794f9[m
+Author: Adhil. <110897474+Adhil-tp@users.noreply.github.com>
+Date:   Sat Dec 14 12:08:04 2024 +0530
+
+    Update product.jsx
+    
+    updated icon bug
+
+[33mcommit c300242d8d73ffbb825e2aa00868d1191d9848ec[m
+Merge: 3940275 cf942a7
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Sat Dec 14 12:00:22 2024 +0530
+
+    Merge pull request #24 from deekshithm0/main
+    
+    merge request
+
+[33mcommit cf942a7f2376b8d1961f20f62492fe236528343c[m
+Merge: 7cd3775 3940275
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Sat Dec 14 11:17:15 2024 +0530
+
+    Merge pull request #23 from deekshithm0/home
+    
+    Home
+
+[33mcommit 394027530aa068b38f70859399344ab8e4b776a6[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Sat Dec 14 11:16:13 2024 +0530
+
+    sccrolling smoothed and product page styled
+
+[33mcommit af2420dea58f825b1ac91e00878b4484223a1f6e[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Sat Dec 14 11:05:43 2024 +0530
+
+    Product page added
+
+[33mcommit 7cd3775d4e4ae897f291b62e0ade4f9fca66f9a4[m
+Merge: 80a2b54 b751b3c
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Tue Dec 10 11:15:14 2024 +0530
+
+    Merge pull request #22 from deekshithm0/home
+    
+    changes added
+
+[33mcommit b751b3c4432d61fd07ff0be28e43e24c664c95f9[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Tue Dec 10 11:11:43 2024 +0530
+
+    changes added
+
+[33mcommit 80a2b5451dee8ae9cd691c6f38a77922b311513a[m
+Author: Adhil-tp <mohamedadhiltp1944@gmail.com>
+Date:   Thu Dec 5 17:25:10 2024 +0530
+
+    updaated responsiveness
+
+[33mcommit a894ab7ab61d0b84182dffeba49f252832ad32e3[m
+Merge: 7bf4f35 3f4fecc
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Mon Dec 2 16:32:26 2024 +0530
+
+    Merge pull request #21 from deekshithm0/home
+    
+    Products page added
+
+[33mcommit 3f4fecc23444330cf04ece3f292221ea84e56d77[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Mon Dec 2 16:30:42 2024 +0530
+
+    Products page added
+
+[33mcommit 7bf4f3558635b21849346a53c7b6feaf02d1e747[m
+Merge: 418be5b 5b40b44
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Fri Nov 29 21:29:04 2024 +0530
+
+    Merge pull request #20 from deekshithm0/home
+    
+    Home
+
+[33mcommit 5b40b44597739bc357340a0f8d8113ea643d81b2[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 29 21:27:31 2024 +0530
+
+    whatsapp window added
+
+[33mcommit ca18468f2ec582a7783cb1417579b51a7544d25b[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 29 21:24:05 2024 +0530
+
+    Footer copntent upations
+
+[33mcommit 362393e5c94c1559227d81a60840cfbdcd8d26e1[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 29 21:15:00 2024 +0530
+
+    contact scroll updated
+
+[33mcommit daed3c95524082e39621c5fce1a0bace0739f103[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 29 21:09:51 2024 +0530
+
+    Footer changed
+
+[33mcommit 418be5b8088f40f287b2e8ae33335e601e6814f0[m
+Merge: 63fb3ef fb5d956
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Thu Nov 28 12:19:21 2024 +0530
+
+    Merge pull request #19 from deekshithm0/home
+    
+    updations on Footer
+
+[33mcommit fb5d9567050f9f4431c3fbb50adc1bef2ff7704f[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Thu Nov 28 12:11:11 2024 +0530
+
+    updations on Footer
+
+[33mcommit 63fb3ef3e98ed45edb55faf0d5494e45e03f3092[m
+Merge: 6cd8abd 716bef7
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Wed Nov 27 15:58:21 2024 +0530
+
+    Merge pull request #18 from deekshithm0/home
+    
+    Footer and About issues solved
+
+[33mcommit 716bef7adfb69105e695be6c1f3156aafdd38303[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Wed Nov 27 15:57:03 2024 +0530
+
+    Footer and About issues solved
+
+[33mcommit 6cd8abd7780d8e7c7eb6ad92ede2de086ac78e90[m
+Author: abdul-basithsp <abdulbasith@313@>
+Date:   Mon Nov 25 15:40:14 2024 +0530
+
+    Added footer page
+
+[33mcommit 8b6218b32a133f120b4996c796ef923cf6ea4af2[m
+Author: abdul-basithsp <abdulbasith@313@>
+Date:   Sat Nov 23 11:53:01 2024 +0530
+
+    conflict resolved
+
+[33mcommit 8675c0e90a217cd32ef9500225807ec41c73f25b[m
+Merge: 1f94bd7 d481997
+Author: abdul-basithsp <abdulbasith@313@>
+Date:   Fri Nov 22 15:32:50 2024 +0530
+
+    resolved merge conflicts
+
+[33mcommit d4819970c389ff1afbf7376529c1c0f0bb6ae9a2[m
+Merge: babf7ca 8a3ce74
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Fri Nov 22 17:09:55 2024 +0530
+
+    Merge pull request #17 from deekshithm0/home
+    
+    Home
+
+[33mcommit 8a3ce749a1519eb47f7c5fd0c3c706ae6e030ab3[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 22 17:06:14 2024 +0530
+
+    clients finished
+
+[33mcommit 1f94bd70d43511bc9fff65057d185d203e5d4a1f[m
+Author: abdul-basithsp <abdulbasith@313@>
+Date:   Fri Nov 22 15:24:33 2024 +0530
+
+    first commit for about page
+
+[33mcommit 5ced2435efd068452c792f6f6d399eae02d97de7[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Fri Nov 22 13:08:23 2024 +0530
+
+    clients update
+
+[33mcommit babf7ca452a8f2411c9ea63984a7ece633bcd4a9[m
+Merge: a62e60d c8f7d42
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Thu Nov 21 15:27:53 2024 +0530
+
+    Merge pull request #16 from deekshithm0/home
+    
+    client section updations
+
+[33mcommit c8f7d426092e2c580dc516b392aa031d64591af9[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Thu Nov 21 15:27:12 2024 +0530
+
+    client section updations
+
+[33mcommit a62e60d1a4c8e09a951a488b2d53145b306194e1[m
+Merge: ebc618b 6a185a0
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Thu Nov 21 12:28:46 2024 +0530
+
+    Merge pull request #15 from deekshithm0/home
+    
+    framer motion adding
+
+[33mcommit 6a185a0f3eeb89ba0dc1743d636861e537cf7699[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Thu Nov 21 12:27:37 2024 +0530
+
+    framer motion adding
+
+[33mcommit ebc618bf67a63cfb8ddb69725e0fbe6d78de9a2c[m
+Merge: f9e974f b558416
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Wed Nov 20 16:16:05 2024 +0530
+
+    Merge pull request #14 from deekshithm0/home
+    
+    ui updations
+
+[33mcommit b558416361ac1f301988e2b3ec4970e378180fca[m
+Author: deekshithm0 <deekshithm0@gmail.com>
+Date:   Wed Nov 20 16:14:26 2024 +0530
+
+    ui updations
+
+[33mcommit f9e974fcede6504071c7b41760b9daca90a4c088[m
+Merge: 6dce3e9 01301b8
+Author: Deekshith M <deekshithm0@gmail.com>
+Date:   Wed Nov 20 15:12:38 2024 +053
