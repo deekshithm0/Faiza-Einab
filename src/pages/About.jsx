@@ -4,7 +4,7 @@ import GrapeBottleImage from "../assets/elements/Grape_Image.jpg";
 
 const About = () => {
   return (
-    <div className="flex justify-center items-center max-w-[125rem]  md:h-[100vh] xs:h-full xs:p-2 sm:p-3 lg:p-0 ">
+    <div className="flex h-screen xs:my-36 lg:mt-3 justify-center items-center max-w-[125rem]  md:h-[100vh] xs:h-full xs:p-2 sm:p-3 lg:p-0 ">
       <div className=" w-full  max-w-[1400px] flex flex-col space-y-10 ">
         <div className="  max-w-[124rem] flex   flex-row xs:flex xs:flex-col xs:items-center sm:flex sm:flex-col md:flex md:flex-row">
           <div className=" ml-44 xs:ml-0 w-fit lg:ml-44 leading-none  ">

@@ -63,7 +63,7 @@ function Products() {
 
       <div
         ref={containerRef}
-        className="hide-scrollbar flex flex-col lg:flex-row gap-10 lg:gap-16 w-full lg:w-[1280px] h-auto lg:h-[550px] items-center bg-[#fcfbfc] overflow-x-auto lg:snap-x lg:snap-mandatory"
+        className="hide-scrollbar flex flex-col lg:flex-row gap-10 lg:gap-16 w-full lg:w-[1280px] h-auto lg:h-[550px] items-center  overflow-x-auto lg:snap-x lg:snap-mandatory"
         style={{ scrollBehavior: "smooth", scrollbarGutter: "stable" }}
       >
         {juices.map((juice, index) => (

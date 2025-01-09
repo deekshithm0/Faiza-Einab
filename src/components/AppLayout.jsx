@@ -57,7 +57,7 @@ const AppLayout = () => {
     <div className="  justify-center items-center">
       <div className="relative max-w-[125rem] flex flex-col hideScrollBar ">
         <NavBar />
-        <div className="  overflowhidden relative">
+        <div className=" h-screen  overflow-scroll hideScrollBar relative">
           <Outlet />
           <div className="w-full flex justify-center items-center">
             <Footer />

@@ -53,16 +53,16 @@ const Hero = () => {
         variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         className=" flex items-center  justify-center"
       >
-        <div className="sm:h-auto overflow-hidden xs:ml-0 xl:-ml-[30rem] z-10 bg-cover bg-center flex max-sm:flex-col items-center justify-evenly px-16">
-          <div className="flex flex-col gap-4 xs:space-y-72 sm:space-y-0 py-5">
-            <h1 className="font-italiana w-full text-[3rem] xs:mr-24 sm:mr-0 max-sm:h-full xs:text-[2.3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] leading-tight text-[#582E7D]">
+        <div className=" sm:h-auto overflow-hidden xs:ml-0  z-10 bg-cover bg-center flex lg:gap-64 max-sm:flex-col items-center justify-evenly px-16">
+          <div className=" flex flex-col gap-4 xs:space-y-72 sm:space-y-0 py-5">
+            <h1 className="font-italiana w-full text-[3rem] xs:mr-24 sm:mr-0 max-sm:h-full xs:text-[2.3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[5rem] leading-tight text-[#582E7D]">
               Simply <br />
               Pure, Simply
               <br /> Delecious!
             </h1>
-            <div className=" xs:flex xs:justify-center sm:justify-start ">
+            <div className=" xs:flex xs:justify-center sm:justify-start">
               <button
-                className="w-40 h-12 xs:z-10 rounded-3xl bg-[#582E7D] text-white text-center"
+                className="w-40 h-12 xs:z-10 rounded-3xl bg-[#582E7D] text-white text-center xs:m-[42px]"
                 onClick={openWhatsapp}
               >
                 Get in touch
@@ -105,7 +105,7 @@ const Hero = () => {
             <img
               src={ProductImg2}
               alt="productImg2"
-              className=" lg:h-[35rem] lg:w-[25rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[40rem] xs:h-1/2 xs:w-1/2 "
+              className=" lg:h-[23rem] lg:w-[32rem] md:h-[28rem] md:w-[20rem] sm:h-96 sm:w-[40rem] xs:h-1/2 xs:w-1/2 "
             />
             <div className="flex flex-col sm:gap-4 sm:pr-2 xs:p-2 md:pr-16 bg-violet-600 xs:pr-2 md:h-[18rem] md:w-[55rem] rounded-2xl bg-opacity-20 items-end">
               <h2 className="font-shadowsIntoLight xs:whitespace-nowrap font-bold lg:text-[50px] md:text-[42px] sm:text-[35px] xs:text-[25px] xs:pt-1 pt-3 pb-5 text-[#582E7D]">
