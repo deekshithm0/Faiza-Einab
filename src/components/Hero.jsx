@@ -62,7 +62,7 @@ const Hero = () => {
             </h1>
             <div className=" xs:flex xs:justify-center sm:justify-start">
               <button
-                className="w-40 h-12 xs:z-10 rounded-3xl bg-[#582E7D] text-white text-center xs:m-[42px]"
+                className="w-40 h-12 xs:z-10 rounded-3xl bg-[#582E7D] text-white text-center xs:m-[50px]"
                 onClick={openWhatsapp}
               >
                 Get in touch
