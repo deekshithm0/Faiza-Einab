@@ -53,7 +53,7 @@ const Hero = () => {
         variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         className=" flex items-center  justify-center"
       >
-        <div className=" sm:h-auto overflow-hidden xs:ml-0  z-10 bg-cover bg-center flex lg:gap-64 max-sm:flex-col items-center justify-evenly px-16">
+        <div className=" sm:h-auto overflow-hidden xs:ml-0  z-10 bg-cover bg-center flex xs:gap-3 lg:gap-64 max-sm:flex-col items-center justify-evenly px-16">
           <div className=" flex flex-col gap-4 xs:space-y-72 sm:space-y-0 py-5">
             <h1 className="font-italiana w-full text-[3rem] xs:mr-24 sm:mr-0 max-sm:h-full xs:text-[2.3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[5rem] leading-tight text-[#582E7D]">
               Simply <br />
