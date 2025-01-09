@@ -3,11 +3,11 @@ import BottleImg from "../assets/elements/bottle.png"
 
 const Bottle = () => {
   return (
-    <div className="sm:w-1/2  flex justify-end items-center max-sm:justify-center">
+    <div className="sm:w-1/2 flex justify-end items-center max-sm:justify-center">
       <img
         src={BottleImg}
         alt="BottleImage"
-        className="sm:w-10/12 object-contain w-full"
+        className="xs:w-10/12 xs:rotate-[28deg]  xs:-mt-[35rem]  xs:ml-[2rem] sm:rotate-0 sm:ml-0 sm:mt-0 lg:rotate-0 object-contain w-full"
       />
     </div>
   )
