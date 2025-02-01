@@ -58,7 +58,7 @@ function Products() {
         onClick={scrollLeft}
         className="hidden lg:block p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
-        <img src="/public/icons8-left-48.png" alt="Scroll Left" />
+        <img src="/icons8-left-48.png" alt="Scroll Left" />
       </button>
 
       <div
@@ -88,7 +88,7 @@ function Products() {
         onClick={scrollRight}
         className="hidden lg:block p-5 bg-[#fcfbfc] rounded-full hover:bg-gray-100"
       >
-        <img src="/public/icons8-right-48.png" alt="Scroll Right" />
+        <img src="/icons8-right-48.png" alt="Scroll Right" />
       </button>
     </div>
   );
