@@ -57,7 +57,7 @@ const Footer = () => {
 
         <hr className="bg-gray-300 w-1/2" />
         <p className="text-gray-300 pb-7 xs:text-[10px] lg:text-[13px]">
-          © 2024 All Rights Reserved. Your Company Name
+          © 2025 All Rights Reserved. Faiza Einab
         </p>
       </div>
     </div>
